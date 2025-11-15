@@ -1,0 +1,69 @@
+.form-section {
+  margin-bottom: 24px;
+}
+
+.form-section-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #828FA3;
+  display: block;
+  margin-bottom: 8px;
+  line-height: 15px;
+}
+
+.board-columns-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.column-input-row,
+.subtask-input-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.column-input-row .input-group,
+.subtask-input-row .input-group {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  transition: opacity 0.2s ease;
+}
+
+.remove-button:hover:not(:disabled) {
+  opacity: 0.7;
+}
+
+.remove-button:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+.remove-button svg path {
+  transition: fill 0.2s ease;
+}
+
+.remove-button:hover:not(:disabled) svg path {
+  fill: #EA5555;
+}
+
+.submit-error {
+  margin-bottom: 24px;
+  padding: 12px;
+  background-color: rgba(234, 85, 85, 0.1);
+  border-radius: 4px;
+  text-align: center;
+}

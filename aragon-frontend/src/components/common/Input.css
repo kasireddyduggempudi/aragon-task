@@ -1,0 +1,53 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.input-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #828FA3;
+  line-height: 15px;
+}
+
+.input-label .required {
+  color: #EA5555;
+  margin-left: 2px;
+}
+
+.input {
+  padding: 8px 16px;
+  border: 1px solid rgba(130, 143, 163, 0.25);
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 23px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  transition: border-color 0.2s ease;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.input:focus {
+  outline: none;
+  border-color: #635FC7;
+}
+
+.input-error {
+  border-color: #EA5555;
+}
+
+.input-error:focus {
+  border-color: #EA5555;
+}
+
+.error-message {
+  font-size: 13px;
+  color: #EA5555;
+  margin-top: -16px;
+}

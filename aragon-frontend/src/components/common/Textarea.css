@@ -1,0 +1,43 @@
+.textarea-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.textarea-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #828FA3;
+  line-height: 15px;
+}
+
+.textarea {
+  padding: 8px 16px;
+  border: 1px solid rgba(130, 143, 163, 0.25);
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 23px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  resize: vertical;
+  transition: border-color 0.2s ease;
+}
+
+.textarea::placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #635FC7;
+}
+
+.textarea-error {
+  border-color: #EA5555;
+}
+
+.textarea-error:focus {
+  border-color: #EA5555;
+}

@@ -1,0 +1,23 @@
+.delete-modal-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #EA5555;
+  margin: 0 0 24px 0;
+  line-height: 23px;
+}
+
+.delete-modal-message {
+  font-size: 13px;
+  line-height: 23px;
+  color: #828FA3;
+  margin: 0 0 24px 0;
+}
+
+.delete-modal-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.delete-modal-actions button {
+  flex: 1;
+}
